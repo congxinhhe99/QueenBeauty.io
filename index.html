@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.compat.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <title>queen Beauty</title>
+</head>
+
+<body>
+    <div class="wrapper-box">
+        <!---start header-->
+        <header>
+            <div class="header-top">
+                <div class="bo">
+                    <div class="cot1">
+                        <div class="logo">
+                            <a href="">
+                                <img src="./assets/images/logo.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class=" cot2">
+                        <div class="quick-search">
+                            <form action="">
+                                <input type="text" name="" id="" placeholder="Tìm Kiếm..">
+                                <button type="submit">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="cot3">
+                        <div class="top-right">
+                            <div class="social">
+                                <div class="social-item">
+                                    <a href="">
+                                        <img src="./assets/images/facebook-icon.png" alt="facebook-icon">
+                                    </a>
+                                </div>
+                                <div class="social-item">
+                                    <a href="">
+                                        <img src="./assets/images/instagram-icon.png" alt="instagram-icon">
+                                    </a>
+                                </div>
+                                <div class="social-item">
+                                    <a href="">
+                                        <img src="./assets/images/zalo-icon.png" alt="zalo-icon">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="cot4">
+                        <div class="quick-call">
+                            <a href="tel:0372867008">
+                                <img src="./assets/images/phone.png" alt="">
+                                <div class="contact">
+                                    <span>Hotline</span>
+                                    <h3>0372867008</h3>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="cart">
+                            <div class="cart-box">
+                                <div class="cart-box-icon">
+                                    <img src="./assets/images/cart.png" alt="">
+
+                                </div>
+                                <div class="cart-text">
+                                    <span class="value" id="number_item">1</span>
+                                    <span class="text">Sản Phẩm</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--end header-->
+        <!--start menu-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Trang Chủ <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mỹ Phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Đồng Hồ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Nước Hoa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Phụ Kiện </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#">Chia Sẻ</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--end menu-->
+        <!--start banner-->
+
+
+        <div class="main-banner">
+            <div><img src="./assets/images/banner1.jpeg" alt=""></div>
+            <div><img src="./assets/images/banner2.jpeg" alt=""></div>
+            <div><img src="./assets/images/banner3.jpeg" alt=""></div>
+        </div>
+        <!--end banner-->
+
+    </div>
+    <script src="./assets/js/slick.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/fontAwesome.js"></script>
+    <script src="assets/js/main.js"></script>
+    <Script>
+        $(document).ready(function () {
+            $('.main-banner').slick({
+                dots: true,
+                arrows: false,
+                autoplay: true,
+                autoplaySpeed: 1000
+            });
+        });
+
+    </Script>
+
+
+
+</body>
+
+</html>
